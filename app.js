@@ -5,45 +5,42 @@ var userPoints = 0;
 console.log('Greeting');
 alert('Welcome to my Guessing Game, a fun way to get to know a bit about me!');
 
-console.log(User name);
+console.log(user);
 var user = prompt('What is your name?');
-alert('Hi ' + user + ', I am so glad you want to play my game!');
+alert('Hi ' + user + ', I am so glad you want to play my game! Please respond to each question with Yes or No');
 
 //Question 1: bio info.
 
-console.log(question1)
-var city = prompt('Do I love living in Seattle, one of the fastest growing tech. cities in the U.S.? Please respond Yes or N.').toLowerCase();
+console.log(city)
+var city = prompt('Do I love living in Seattle, one of the fastest growing tech. cities in the U.S.?').toLowerCase();
 
-console.log(answer);
-if(city === 'yes' || city === 'Y') {
+if(city === 'yes' || city === 'y') {
   userPoints++;
 } else {
-  alert('Guess again, I actually love the rain!')
+  alert('Guess again, I actually love Seattle, even with all of the rain!')
 }
 
 alert('You have ' + userPoints + ' points.')
 
 //Question 2: more bio info.
 
-console.log(question2)
+console.log(solvingPuzzles)
 var solvingPuzzles = prompt('Do I enjoy solving puzzles?').toLowerCase();
 
-console.log(answer2);
 if(solvingPuzzles === 'yes' || solvingPuzzles === 'y') {
   userPoints++;
 } else {
-  alert('Oh no, I actually do love problem-solving and find the process invigorating!')
+  alert('Oh no, I actually DO love problem-solving and find the process invigorating!')
 }
 
 alert('You have ' + userPoints + ' points.')
 
 //Question 3: Education.
 
-console.log(question3)
+console.log(education)
 var education = prompt('Am I currently enrolled at Code Fellows and on my way to becoming a skilled Software Developer?').toLowerCase();
 
-console.log(answer);
-if(answer === 'yes' || answer === 'Y') {
+if(answer === 'yes' || answer === 'y') {
   userPoints++;
 } else {
   alert('Wrong answer, I AM currently enrolled at Code Fellows and excited about pursuing a career in Software Development!')
@@ -53,11 +50,10 @@ alert('You have ' + userPoints + ' points.')
 
 //Question 4: Job Experience.
 
-console.log(question4)
+console.log(jobExperience)
 var jobExperience = prompt('Have I worked as a professional dog walker?').toLowerCase();
 
-console.log(answer);
-if(answer === 'no' || answer === 'N') {
+if(answer === 'no' || answer === 'n') {
   userPoints++;
 } else {
   alert('Wrong, I have worked as a hospital Social Worker!')
@@ -67,10 +63,9 @@ alert('You have ' + userPoints + ' points.')
 
 //Question 5: Goals.
 
-console.log(question5)
+console.log(goals)
 var goals = prompt('Is my goal to be part of a creative team, providing innovative products to the world?').toLowerCase();
 
-console.log(answer);
 if(answer === 'yes' || answer === 'Y') {
   userPoints++;
 } else {
@@ -78,3 +73,6 @@ if(answer === 'yes' || answer === 'Y') {
 }
 
 alert('You have ' + userPoints + ' points.')
+
+//Thanks
+alert('That\'s all the questions, THANK YOU for playing my game. I hope you enjoyed it and now know a little bit more about me!')
