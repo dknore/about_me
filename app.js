@@ -82,10 +82,10 @@ if(answer5 === 'yes' || answer5 === 'Y') {
 var answer6 = prompt('Let\'s shake it up a bit.. How many movies do I own? Guess any number.  You will have 4 guesses.');
 console.log(typeof(answer6));
 var moviesIOwn = 104;
-var guesses = 4;
+var question6Guesses = 4;
 console.log('Question 6 answer is: ', answer6);
 
-for(var i = 0; i < guesses; i++) {
+for(var i = 0; i < question6Guesses; i++) {
   console.log('inside while loop');
   answer6 = parseInt(answer6);
 
@@ -93,9 +93,9 @@ for(var i = 0; i < guesses; i++) {
     alert('Way to go, you are crushing this!');
     userPoints++;
     break;
-  } else if(answer6 < moviesIOwn && i < (guesses - 1)) {
+  } else if(answer6 < moviesIOwn && i < (question6Guesses - 1)) {
     answer6 = prompt('It may be hard to believe, but I own even MORE than that!');
-  } else if(answer6 > moviesIOwn && i < (guesses - 1)) {
+  } else if(answer6 > moviesIOwn && i < (question6Guesses - 1)) {
     answer6 = prompt('Oops, too high! Try again.');
   } else {
     alert('Sorry, you have no more guesses left.');
@@ -107,14 +107,14 @@ console.log('Question 7 answer is: ' + answer7);
 var answer7 = prompt('Can you guess 1 of the items on my Bucket List? Let\'s see if you can guess one in 6 guesses.');
 var bucketList = ['Running a marathon', 'Living abroad for at least 1 year', 'Traveling to all of the continents', 'Live downtown for a season'];
 var flag = false;
-var guesses = 6;
+var question7Guesses = 6;
 
-while (flag === false && guesses > 0) {
+while (flag === false && question7Guesses > 0) {
   console.log('inside while');
 
-  for(var i = 0; i < bucketList.length; i++) {
+  for(var a = 0; a < bucketList.length; i++) {
     console.log(bucketList[i]);
-    console.log(i);
+    console.log(a);
     if(answer7 === bucketList[i]) {
       flag = true;
     }
@@ -124,7 +124,7 @@ while (flag === false && guesses > 0) {
     alert('Great Job!');
   } else {
     answer7 = prompt('Oh no, guess again!');
-    guesses--;
+    question7Guesses--;
   }
 }
 
