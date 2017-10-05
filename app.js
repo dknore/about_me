@@ -60,7 +60,7 @@ if(answer4 === 'no' || answer4 === 'n') {
   alert('Way to go, you\'re amazing!');
   userPoints++;
 } else {
-  alert('Wrong, I have worked as a hospital Social Worker!');
+  alert('Nope, I have actually had experience working as a hospital Social Worker!');
 }
 
 alert('You have ' + userPoints + ' points.');
@@ -76,6 +76,8 @@ if(answer5 === 'yes' || answer5 === 'Y') {
 } else {
   alert('Wrong, that is exactly my goal!!');
 }
+
+alert('You have ' + userPoints + ' points.');
 
 //Question 6: Prompt user to guess a number, AND indicates 'too high/low'.  User has FOUR tries.
 
@@ -102,6 +104,7 @@ for(var i = 0; i < question6Guesses; i++) {
   }
 }
 //Question 7: Prompt user to guess answer from an array of answers. User has SIX tries, AND upon using up tries or getting correct answer, display msg of all possilbe answers.
+//FIX question 7!!
 
 console.log('Question 7 answer is: ' + answer7);
 var answer7 = prompt('Can you guess 1 of the items on my Bucket List? Let\'s see if you can guess one in 6 guesses.');
