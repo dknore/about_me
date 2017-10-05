@@ -1,32 +1,35 @@
 body {
-  background-image: url(https://varianto25.com/assets/img/wallpapers/front-end/social.jpg);
-
-  background-position: center bottom;
-  border: 4px double white;
-  margin-top: 30px;
+  font-family: fantasy, Sans, serif;
+  background-color: 	#f4f9fd;
+  background-attachment: fixed;
+  margin: 0px;
 }
 
-img {
-  opacity: 0.0;
-}
-
-h1, h2 {
-  color: white;
-  text-align: center;
-  font-family: fantasy;
-  f
-}
-
-h1 {
-  font-size: 60;
-}
-
-h2 {
-  font-size: 10;
+.image {
+    background-image: url(https://mediaweb.kirotv.com/photo/2016/04/01/RecordRain_1459549637166_3465042_ver1.0_640_360.png);
+    background-size: 100%;
+    width: -webkit-fill-available;
+    height: 300px;
+    background-attachment: scroll;
+    margin: 0;
 }
 
 p {
-  width: 400px;
-  margin: 20px auto 20px auto;
+    width: 85%;
+    height: auto;
+    margin: 20px;
+    text-align: center;
+}
 
+.heading {
+  font-size: 24px, bold;
+  width: 90%;
+  height: 20px;
+  text-align: left;
+  border-bottom: 2px solid #b13a18;
+  margin-top: 50px;
+}
+
+.footer {
+  text-align: center;
 }
