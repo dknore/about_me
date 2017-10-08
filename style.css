@@ -21,8 +21,16 @@ p {
     padding: inherit;
 }
 
-.list {
-  li: inline;
+#aboutme {
+  text-align: center;
+}
+
+li {
+  display: inline;
+  margin-left: 0;
+  padding-left: 0;
+  padding-right: 50px;
+  text-align: center;
 }
 
 .heading {
@@ -31,9 +39,11 @@ p {
   height: 20px;
   text-align: left;
   border-bottom: 2px solid #f15909;
-  margin-top: 50px;
+  margin-top: 40px;
 }
 
 .footer {
   text-align: center;
+  text-size: 24px;
+  border-color: rgb(226, 226, 224, .5);
 }
