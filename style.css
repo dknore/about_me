@@ -45,5 +45,5 @@ li {
 .footer {
   text-align: center;
   text-size: 24px;
-  border-color: rgb(226, 226, 224, .5);
+  background-color: rgb(226, 226, 224, .5);
 }
