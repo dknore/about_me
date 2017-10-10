@@ -7,7 +7,7 @@ alert('Welcome to my Guessing Game, a fun way to get to know a bit about me!');
 
 console.log('The users name is: ' + user);
 var user = prompt('What is your name?');
-alert('Hello ' + user + ', I\'m so glad you want to play my game!');
+alert('Hello, ' + user + ', I\'m so glad you want to play my game!');
 
 //Question 1: bio info.
 
@@ -82,7 +82,6 @@ alert('You have ' + userPoints + ' points.');
 //Question 6: Prompt user to guess a number, AND indicates 'too high/low'.  User has FOUR tries.
 
 var answer6 = prompt('Let\'s shake it up a bit.. How many movies do I own? Guess any number.  You will have 4 guesses.');
-console.log(typeof(answer6));
 var moviesIOwn = 104;
 var question6Guesses = 4;
 console.log('Question 6 answer is: ', answer6);
@@ -103,6 +102,9 @@ for(var i = 0; i < question6Guesses; i++) {
     alert('Sorry, you have no more guesses left.');
   }
 }
+
+alert('You have ' + userPoints + ' points.');
+
 //Question 7: Prompt user to guess answer from an array of answers. User has SIX tries, AND upon using up tries or getting correct answer, display msg of all possilbe answers.
 //FIX question 7!!
 
@@ -125,6 +127,7 @@ while (flag === false && question7Guesses > 0) {
 
   if (flag === true) {
     alert('Great Job!');
+    userPoints++;
   } else {
     answer7 = prompt('Oh no, guess again!');
     question7Guesses--;
