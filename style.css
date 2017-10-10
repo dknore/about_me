@@ -1,7 +1,6 @@
 body {
   font-family: fantasy, Sans, serif;
   margin: 0px;
-  background-color: 	gb(249, 248, 247);
 }
 
 .image {
@@ -11,6 +10,28 @@ body {
     height: -webkit-fill-available;
     background-attachment: fixed;
     margin: 0;
+}
+
+#imagetxt {
+  color: rgb(249, 248, 247);
+  text-align: left;
+  font-size: 60px;
+  margin-left: 90px;
+  padding-top: 90px;
+}
+
+#dkphoto img {
+  height: 80px;
+  width: 80px;
+  margin-left: 125px;
+  margin-top: 20px
+  border: black;
+  border-radius: 50%;
+}
+
+.body {
+  background-color: 	rgb(249, 248, 247);
+  opacity: .9;
 }
 
 p {
@@ -44,6 +65,8 @@ li {
 
 .footer {
   text-align: center;
-  text-size: 24px;
-  background-color: rgb(226, 226, 224, .5);
+  height: 20px;
+  font-size: 24px;
+  margin: 10px;
+  padding: 5px;
 }
