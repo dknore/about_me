@@ -90,31 +90,6 @@ question5();
 
 //Question 6: Prompt user to guess a number, AND indicates 'too high/low'.  User has FOUR tries.
 
-<<<<<<< HEAD
-var answer6 = prompt('Let\'s shake it up a bit.. How many movies do I own? Guess any number.  You will have 4 guesses.');
-var moviesIOwn = 104;
-var question6Guesses = 4;
-console.log('Question 6 answer is: ', answer6);
-
-for(var i = 0; i < question6Guesses; i++) {
-  console.log('inside while loop');
-  answer6 = parseInt(answer6);
-
-  if(answer6 === moviesIOwn) {
-    alert('Way to go, you are crushing this!');
-    userPoints++;
-    break;
-  } else if(answer6 < moviesIOwn && i < (question6Guesses - 1)) {
-    answer6 = prompt('It may be hard to believe, but I own even MORE than that!');
-  } else if(answer6 > moviesIOwn && i < (question6Guesses - 1)) {
-    answer6 = prompt('Oops, too high! Try again.');
-  } else {
-    alert('Sorry, you have no more guesses left.');
-  }
-}
-
-alert('You have ' + userPoints + ' points.');
-=======
 function question6() {
   var answer6 = prompt('Let\'s shake it up a bit.. How many movies do I own? Guess any number.  You will have 4  guesses.');
   var moviesIOwn = 104;
@@ -141,7 +116,6 @@ function question6() {
   }
 }
 question6();
->>>>>>> 84f5d88ef02c911ff6b0e5bcacf5e47848d0e129
 
 //Question 7: Prompt user to guess answer from an array of answers. User has SIX tries, AND upon using up tries or getting correct answer, display msg of all possilbe answers.
 
@@ -160,14 +134,6 @@ function question7() {
       }
     }
 
-<<<<<<< HEAD
-  if (flag === true) {
-    alert('Great Job!');
-    userPoints++;
-  } else {
-    answer7 = prompt('Oh no, guess again!');
-    question7Guesses--;
-=======
     if (flag === true) {
       alert('Great Job!');
       userPoints++;
@@ -175,7 +141,6 @@ function question7() {
       answer7 = prompt('Oh no, guess again!');
       question7Guesses--;
     }
->>>>>>> 84f5d88ef02c911ff6b0e5bcacf5e47848d0e129
   }
   //List items in array (Bucket List)
   alert('Actually, these are some of the items in my Bucket List: ' + bucketList);
