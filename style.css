@@ -1,72 +1,74 @@
-body {
-  font-family: fantasy, Sans, serif;
-  margin: 0px;
+body {
+  font-family: fantasy, Sans, serif;
+  margin: 0px;
+}
+
+.image {
+  background-image: url(images/cup-of-coffee-1280537_1920.jpg);
+  background-size: cover;
+  width: 100%;
+  height: -webkit-fill-available;
+  background-attachment: fixed;
+  margin: 0;
+}
+
+#imagetxt {
+  color: rgb(249, 248, 247);
+  text-align: left;
+  font-size: 70px;
+  margin-left: 80px;
+  padding-top: 90px;
+}
+
+img {
+  height: 120px;
+  width: 120px;
+  margin-left: 130px;
+  margin-top: 20px
+  border: black;
+  border-radius: 50%;
+}
+
+.body {
+  background-color: rgb(249, 248, 247);
+  opacity: .9;
+  padding-left: 40px;
 }
 
-.image {
-    background-image: url(images/cup-of-coffee-1280537_1920.jpg);
-    background-size: cover;
-    width: 100%;
-    height: -webkit-fill-available;
-    background-attachment: fixed;
-    margin: 0;
-}
+p {
+  width: 85%;
+  height: auto;
+  text-align: left;
+}
 
-#imagetxt {
-  color: rgb(249, 248, 247);
-  text-align: left;
-  font-size: 60px;
-  margin-left: 90px;
-  padding-top: 90px;
-}
+#aboutme {
+  text-align: center;
+}
 
-#dkphoto img {
-  height: 80px;
-  width: 80px;
-  margin-left: 125px;
-  margin-top: 20px
-  border: black;
-  border-radius: 50%;
-}
+li {
+  display: inline;
+  margin-left: 0;
+  padding-left: 0;
+  padding-right: 50px;
+  text-align: center;
+}
 
-.body {
-  background-color: 	rgb(249, 248, 247);
-  opacity: .9;
-}
+.heading {
+  font-size: 24px, bold;
+  width: 90%;
+  height: 20px;
+  text-align: left;
+  border-bottom: 2px solid #f15909;
+  margin-top: 40px;
+}
 
-p {
-    width: 85%;
-    height: auto;
-    margin: 20px;
-    text-align: left;
-    padding: inherit;
-}
-
-#aboutme {
-  text-align: center;
-}
-
-li {
-  display: inline;
-  margin-left: 0;
-  padding-left: 0;
-  padding-right: 50px;
-  text-align: center;
-}
-
-.heading {
-  font-size: 24px, bold;
-  width: 90%;
-  height: 20px;
-  text-align: left;
-  border-bottom: 2px solid #f15909;
-  margin-top: 40px;
-}
-
-.footer {
-  text-align: center;
-  height: 20px;
-  font-size: 24px;
-  margin: 10px;
-  padding: 5px;
-}
+pre {
+  text-align: center;
+  background-color: rgba(241, 89, 9, 0.1);
+  font-family: fantasy;
+  height: 25px;
+  width: 90%;
+  font-size: 20px;
+  margin-top: 40px;
+  padding: 5px;
+}
